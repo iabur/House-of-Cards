@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
+.header {
+   background-image: url(logo.PNG); 
+   background-size:contain;
+   height: 300px;
+   background-size: 100% 100%;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-color: gray;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 60px;
+    text-decoration: none;
+    font-size: 30px;
+	
+	
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+
+.main {  
+text-align : center;
+
+    
+}
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+    font: italic bold 80px/100px Georgia, serif;
+    color: green;
+}
+
+ #d {
+    font-family: "Tangerine", serif;
+    font-size: 75px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+	background-color : gray;
+}
+
+
+@media screen and (max-width: 720px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="header">
+  
+  
+</div>
+
+
+<div class="navbar">
+ <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="business_hours.html">Business-Hours</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+  
+</div>
+
+
+<div class="main" >
+
+  <h1>Welcome to HOUSE OF CARDS</h1>
+  <p id = "d">You can choose best one from a lot of collection of cards before visiting our shop. Choose your's best option bellow.</p>
+
+  
+  
+</div >
+
+<div align="center">
+
+<img src="floor_plan.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="" title="" href="postcards.html" coords="79,87,33" shape="circle">
+    <area target="" alt="" title="" href="greeting.html" coords="229,90,33" shape="circle">
+    <area target="" alt="" title="" href="playing.html" coords="156,220,35" shape="circle">
+</map>
+
+</div>
+
+
+<br><br><br>
+<div class="footer">
+  <h2>© 2014-2018 Materialize, All rights reserved.
+</h2>
+<p>The images contained therein on this website were sourced from various internet websites. These images are not used for profit or business purposes. Its sole purpose is for education. In the event that these images are copyighted and ownership can be evidenced, please contact Andrew Chiou (a.chiou@cqu.edu.au) and the images will be immediately removed from this archive.</p>
+</div>
+
+</body>
+</html>
